@@ -4,8 +4,11 @@ import android.util.Log
 
 class Human: Animal, Thinkable {
 
+    val hobby: String
 
-    constructor(name: String, age: Int, hobby: String): super(name, age, hobby) {
+
+    constructor(name: String, age: Int, hobby: String): super(name, age) {
+        this.hobby = hobby
     }
 
 

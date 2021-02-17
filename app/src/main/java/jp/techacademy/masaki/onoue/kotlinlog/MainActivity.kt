@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
 
         human.say()
 
-        human.think()
+        val human2 = Human("尾上将輝", 20, "プログラミング")
+
+        human2.think()
 
 
     }
